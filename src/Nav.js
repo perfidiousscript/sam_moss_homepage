@@ -17,6 +17,7 @@ const NavItem = styled(Link)`
   flex-grow: 1;
   text-decoration: none;
   color: ${colors.grey};
+  font-family: "Nanum Myeongjo", serif;
 `;
 
 const NavLink = styled.a`
@@ -27,6 +28,7 @@ const NavLink = styled.a`
   flex-grow: 1;
   text-decoration: none;
   color: ${colors.grey};
+  font-family: "Nanum Myeongjo", serif;
 `;
 
 const StyledBody = styled(Body)`
