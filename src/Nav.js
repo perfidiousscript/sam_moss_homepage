@@ -31,12 +31,6 @@ const NavLink = styled.a`
   font-family: "Nanum Myeongjo", serif;
 `;
 
-const StyledBody = styled(Body)`
-  width: 80%;
-  margin-left: 10%;
-  height: 100%;
-`;
-
 class Nav extends Component {
   render() {
     return (
@@ -47,7 +41,7 @@ class Nav extends Component {
           <NavItem to="/bio">Bio</NavItem>
           <NavItem to="/contact">Contact</NavItem>
         </Navbar>
-        <StyledBody />
+        <Body />
       </Fragment>
     );
   }

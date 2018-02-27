@@ -13,10 +13,16 @@ const Main = styled.div`
   flex: 1;
 `;
 
+const Name = styled.div`
+  font-size: 6rem;
+  font-family: "Nanum Myeongjo", serif;
+`;
+
 class App extends Component {
   render() {
     return (
       <Main>
+        <Name>Sam Moss</Name>
         <BrowserRouter>
           <Nav />
         </BrowserRouter>
